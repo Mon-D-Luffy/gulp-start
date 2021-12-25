@@ -1,5 +1,8 @@
-@import "./helpers/variables";
-@import "./helpers/mixins";
+@import "./helpers/**/*";
 @import "./base/base";
 @import "./layout/**/*";
 @import "./components/**/*";
+
+.header p {
+  color: #000;
+}

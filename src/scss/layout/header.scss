@@ -1,0 +1,37 @@
+.header {
+  &__inner {
+    @include flex;
+    justify-content: space-between;
+    padding: 21px 37px;
+  }
+
+  &__other {
+    @include flex;
+  }
+
+  &__phone {
+    @include flex;
+    margin-right: 67px;
+  }
+
+  &__shopping-bag {
+    position: relative;
+  }
+
+  &__shopping-bag span {
+    position: absolute;
+    top: -20px;
+
+    min-width: 20px;
+    min-height: 20px;
+
+    padding: 2px;
+
+    color: #fff;
+    text-align: center;
+
+    background: #998e78;
+
+    border-radius: 50%;
+  }
+}

@@ -1,3 +1,14 @@
 @mixin color {
   color: #0c0c0c;
 }
+
+@mixin flex() {
+  display: flex;
+  align-items: center;
+}
+
+@mixin color-hover-transition {
+  color: var(--color-hover);
+
+  transition: var(--transition);
+}

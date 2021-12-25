@@ -1,0 +1,33 @@
+.icon-telephone {
+  width: 20px;
+  height: 20px;
+  margin-right: 9px;
+
+  padding: 3px 4px 7px 6px;
+
+  cursor: pointer;
+
+  transition: var(--transition);
+
+  fill: #6e9c9f;
+
+  &:hover {
+    background: #6e9c9f;
+
+    transition: var(--transition);
+
+    fill: #fff;
+  }
+}
+
+.icon-shopping-bags {
+  width: 24px;
+  height: 24px;
+}
+
+.icon-instagram,
+.icon-facebook,
+.icon-twitter {
+  width: 22px;
+  height: 22px;
+}

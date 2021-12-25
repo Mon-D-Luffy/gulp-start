@@ -1,0 +1,13 @@
+header.header
+  .container
+    .header__inner
+      include ./main-parts/logo
+      include ./main-parts/nav
+      .header__other
+        .header__phone
+          +icon-mono('telephone')
+          a.header__phone-link(href="tel:+74958235412") +7 (495) 823-54-12
+        .header__basket
+           a.header__shopping-bag(href="#")
+            +icon-mono('shopping-bags')
+            span 3

@@ -1,0 +1,33 @@
+footer.footer
+  .container
+    .footer__inner
+      .footer__copyright
+        include ./main-parts/logo
+        .footer__copyright-info
+          span.copyright-text © Все права защищены
+          a.copyright-link(href="#") Политика конфиденциальности
+          a.copyright-link(href="#") Публичная оферта
+      .footer__menu-advanced
+        include ./main-parts/nav
+        ul.footer__submenu
+          li.footer__submenu-item
+            a.footer__submenu-link(href="#") Пальто
+          li.footer__submenu-item
+            a.footer__submenu-link(href="#") Свитшоты
+          li.footer__submenu-item
+            a.footer__submenu-link(href="#") Кардиганы
+          li.footer__submenu-item
+            a.footer__submenu-link(href="#") Толстовки
+      .footer__contacts
+        a.footer__phone-link(href="tel:+74958235412") +7 (495) 823-54-12
+        a.footer__mail(href="mailto:hello@womazing.com") hello@womazing.com
+        .footer__social
+          a.footer__social-link(href="#")
+            +icon-mono("instagram")
+          a.footer__social-link(href="#")
+            +icon-mono("facebook")
+          a.footer__social-link(href="#")
+            +icon-mono("twitter")
+        .footer__pay-icon
+          a.footer__pay-link(href="#")
+            img.footer__pay-img(src="images/visa.svg" alt="pay")
